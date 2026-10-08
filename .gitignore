@@ -1,0 +1,43 @@
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Credentials and local data
+.env
+.env.*
+!.env.example
+secrets/
+credentials*.json
+*.pem
+*.key
+practice-data/
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+
+# Firmware builds / tool state
+.pio/
+build/
+sdkconfig
+sdkconfig.old
+managed_components/
+
+# Web builds / tool state
+node_modules/
+.nuxt/
+.output/
+.wrangler/
+dist/
+coverage/
+*.log
+
+# Temporary work and mechanical backups
+work/
+*.FCStd1
+*.bak
+__pycache__/
